@@ -1,0 +1,89 @@
+AbileneTX|Abilene-Sweetwater
+AlbanyNY|Albany - Schenectady - Troy, NY
+AlbanyGA|Albany, GA
+AmarilloTX|Amarillo, TX
+AustinTX|Austin, TX
+BakersfieldCA|Bakersfield, CA
+BaltimoreMD|Baltimore, MD
+BeaumontTX|Beaumont - Port Arthur, TX
+BirminghamAL|Birmingham, AL
+BoiseID|Boise, ID
+BuffaloNY|Buffalo, NY
+BozemanMT|Butte-Bozeman
+CedarRapidsIA|Cedar Rapids - Waterloo - Dubuque, IA
+ChampaignIL|Champaign - Springfield - Decatur, IL
+CharlestonWV|Charleston - Huntington, WV
+CharlestonSC|Charleston, SC
+ChattanoogaTN|Chattanooga, TN
+ChicoCA|Chico-Redding
+CincinnatiOH|Cincinnati, OH
+ColumbiaMO|Columbia - Jefferson City, MO
+ColumbiaSC|Columbia, SC
+ColumbusOH|Columbus, OH
+CorpusChristiTX|Corpus Christi, TX
+DaytonOH|Dayton, OH
+DesMoinesIA|Des Moines - Ames, IA
+ElPasoTX|El Paso, TX
+EugeneOR|Eugene, OR
+EurekaCA|Eureka
+FlintMI|Flint - Saginaw - Bay City, MI
+MyrtleBeachSC|Florence - Myrtle Beach, SC
+FresnoCA|Fresno - Visalia, CA
+GainesvilleFL|Gainesville, FL
+GrandRapidsMI|Grand Rapids - Kalamazoo - Battle Creek, MI
+GreenBayWI|Green Bay - Appleton, WI
+GreensboroNC|Greensboro - High Point - Winston Salem, NC
+GreenvilleSC|Greenville - Spartanburg, SC / Asheville, NC / Anderson, SC
+EasternNC|Greenville-N.Bern-Washngtn
+HarlingenTX|Harlingen - Weslaco - Brownsville - McAllen, TX
+HarrisburgPA|Harrisburg - Lancaster - Lebanon - York, PA
+JohnstownPA|Johnstown - Altoona, PA
+LasVegasNV|Las Vegas, NV
+LexingtonKY|Lexington, KY
+LincolnNE|Lincoln - Hastings - Kearney, NE
+LittleRockAR|Little Rock - Pine Bluff, AR
+MaconGA|Macon, GA
+MadisonWI|Madison, WI
+MedfordOR|Medford - Klamath Falls, OR
+MilwaukeeWI|Milwaukee, WI
+MinneapolisMN|Minneapolis, MN
+MissoulaMT|Missoula
+MobileAL|Mobile, AL / Pensacola, FL
+NashvilleTN|Nashville, TN
+NorfolkVA|Norfolk - Portsmouth - Newport News, VA
+OklahomaCityOK|Oklahoma City, OK
+OmahaNE|Omaha, NE
+OttumwaIA|Ottumwa, IA / Kirksville, MO
+PaducahKY|Paducah-Cape Girard-Harsbg
+PeoriaIL|Peoria - Bloomington, IL
+PittsburghPA|Pittsburgh, PA
+PortlandME|Portland - Auburn, ME
+PortlandOR|Portland, OR
+ProvidenceRI|Providence-New Bedford
+QuincyIL|Quincy, IL / Hannibal, MO / Keokuk, IA
+RaleighDurhamNC|Raleigh - Durham, NC
+RenoNV|Reno, NV
+RichmondVA|Richmond - Petersburg, VA
+RoanokeVA|Roanoke - Lynchburg, VA
+RochesterNY|Rochester, NY
+SaltLakeCityUT|Salt Lake City, UT
+SanAngeloTX|San Angelo
+SanAntonioTX|San Antonio, TX
+SavannahGA|Savannah
+SeattleWA|Seattle - Tacoma, WA
+SiouxCityIA|Sioux City, IA
+SouthBendIN|South Bend - Elkhart, IN
+SpokaneWA|Spokane, WA
+StLouisMO|St. Louis, MO
+SyracuseNY|Syracuse, NY
+TallahasseeFL|Tallahassee, FL - Thomasville, GA
+ToledoOH|Toledo, OH
+TraverseCityMI|Traverse City - Cadillac, MI
+TriCitiesTN|Tri-Cities, TN-VA
+TulsaOK|Tulsa, OK
+WashingtonDC|Washington, DC
+WestPalmFL|West Palm Beach - Fort Pierce, FL
+WheelingWV|Wheeling, WV - Steubenville, OH
+WichitaKS|Wichita - Hutchinson, KS
+WilkesBarrePA|Wilkes Barre - Scranton, PA
+YakimaWA|Yakima - Pasco - Richland - Kennewick, WA
