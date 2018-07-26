@@ -22,7 +22,7 @@ def get_coords():
 def write_locations(locations):
     """ Write parsed locations to CSV file """
     # TODO: add coords to locations
-    with open('stations.csv', 'w') as outfile:
+    with open('cities.csv', 'w') as outfile:
         writer = csv.writer(outfile)
         for location in locations:
             state = location[0]
