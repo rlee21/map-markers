@@ -13,9 +13,10 @@ def read_csv():
 
     return markers
 
-
+def write_json(markers):
+    with open('../data/markers.json', 'w') as outfile:
+        json.dump(markers, outfile, indent=2)
 
 if __name__ == '__main__':
     markers = read_csv()
-    from pprint import pprint
-    pprint(markers)
+    write_json(markers)
