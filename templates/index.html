@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>My Google Markers</title>
+      <title>Sinclair Stations</title>
       <meta name="viewport" content="initial-scale=1.0">
       <meta charset="utf-8">
       <style>
-         /* Always set the map height explicitly to define the size of the div
-         * element that contains the map. */
          #map {
          height: 100%;
          }
-         /* Optional: Makes the sample page fill the window. */
          html, body {
          height: 100%;
          margin: 0;
@@ -23,34 +20,32 @@
       <!-- <script src="coords.json" type="text/javascript"></script> -->
       <!-- <script defer src="script.js"></script> -->
       <script>
-      function initMap(){
-        var options = {
-            center: {lat: 39.8283, lng: -98.5795},
-            zoom: 4.5
-        };
-        var map = new google.maps.Map(document.getElementById("map"), options);
-        var markers = {{ markers|tojson }};
-
-        for(var i = 0; i < markers.length; i ++){
-            addMarker(markers[i]);
-        };
-        function addMarker(props){
-            var marker = new google.maps.Marker({
-                position: props.coords,
-                map: map
-                });
-            if (props.content){
-                var infoWindow = new google.maps.InfoWindow({
-                    content: props.content
-                });
-                marker.addListener("click", function(){
-                    infoWindow.open(map, marker);
-                });
-
-            };
-        };
-      };
-</script>
+         function initMap(){
+           var options = {
+               center: {lat: 39.8283, lng: -98.5795},
+               zoom: 4.5
+           };
+           var map = new google.maps.Map(document.getElementById("map"), options);
+           var markers = {{ markers|tojson }};
+           for(var i = 0; i < markers.length; i ++){
+               addMarker(markers[i]);
+           };
+           function addMarker(props){
+               var marker = new google.maps.Marker({
+                   position: props.coords,
+                   map: map
+                   });
+               if (props.content){
+                   var infoWindow = new google.maps.InfoWindow({
+                       content: props.content
+                   });
+                   marker.addListener("click", function(){
+                       infoWindow.open(map, marker);
+                   });
+               };
+           };
+         };
+      </script>
       <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ API_KEY }}&callback=initMap"
          type="text/javascript"></script>
    </body>

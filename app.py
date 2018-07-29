@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    with open('markers.json') as json_file:
+    with open('data/markers.json') as json_file:
         markers = json.load(json_file)
         API_KEY = os.environ['GOOGLE_MAPS_KEY']
     return render_template('index.html', markers=markers, API_KEY=API_KEY)
