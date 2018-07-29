@@ -12,7 +12,7 @@ def read_csv():
                      'lat': float(row[1]),
                      'lng': float(row[2])
                 },
-                'content': '<h3>{city}</h3>'.format(city=row[0])
+                'content': '<h3>{city}</h3>'.format(city=row[0]).replace(',', ', ')
             })
 
     return markers
