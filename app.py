@@ -14,7 +14,6 @@ def index():
     return render_template('index.html', markers=markers, API_KEY=API_KEY)
 
 
-
 if __name__ == '__main__':
     env = os.environ.get('PYTHON_ENV', 'local')
     HOST = '0.0.0.0'
