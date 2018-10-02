@@ -15,6 +15,10 @@ def index():
 
 
 
-
 if __name__ == '__main__':
-    app.run()
+    env = os.environ.get('PYTHON_ENV', 'local')
+    HOST = '0.0.0.0'
+    PORT = 5000
+    debug = False if env == 'prod' else True
+    app.run(host=HOST, port=PORT, debug=debug)
+
